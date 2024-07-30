@@ -82,7 +82,7 @@ const NestedDropdown = () => {
             onClose={handleClose}
             PaperProps={{
               style: {
-                width: "300px", // Apply width directly to the Paper component
+                width: "300px",
               },
             }}
           >

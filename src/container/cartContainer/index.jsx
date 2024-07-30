@@ -86,8 +86,8 @@ const CartContainer = () => {
     deleteMutation.mutate(updatedCart);
   };
   return (
-    <Box width="100%" height="100vh" display="flex" flexDirection="column">
-      <Header />
+    <Box width="100%" height="100vh" display="flex" flexDirection="column" justifyContent='space-between'>
+      <Header/>
       <Cart
         data={cart}
         onAdd={handleAdd}

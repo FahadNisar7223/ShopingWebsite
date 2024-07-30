@@ -20,7 +20,7 @@ const MuiAppbar = () => {
     <>
       <AppBar
         position="relative"
-        sx={{ background: "white", boxShadow: "none" }}
+        sx={{ background: "white", boxShadow: "none", height: "80px" }}
       >
         <Box
           mb={2}
@@ -48,7 +48,7 @@ const MuiAppbar = () => {
           >
             <Box>
               <IconButton onClick={handlePersonClick}>
-                <Person2Outlined />
+                <Person2Outlined sx={{ height: "30px", width: "30px" }} />
               </IconButton>
             </Box>
             <Box display="flex" alignItems="center" position="relative">

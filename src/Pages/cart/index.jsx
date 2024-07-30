@@ -1,15 +1,9 @@
 import React from "react";
 import summer from "../../assets/summer.png";
-import {
-  Box,
-  Typography,
-  List,
-  ListItem,
-  IconButton,
-} from "@mui/material";
+import { Box, Typography, List, ListItem, IconButton } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import { Clear} from "@mui/icons-material";
+import { Clear } from "@mui/icons-material";
 
 const Cart = ({ data, onAdd, onRemove, handleDelete }) => {
   if (!data || data?.products?.length === 0) {
@@ -32,9 +26,6 @@ const Cart = ({ data, onAdd, onRemove, handleDelete }) => {
                 <img width="100px" height="100px" src={summer} alt="" />
 
                 <Box display="flex" flexDirection="column" gap={7}>
-                  {/* <ListItemText
-              primary={`Product ID: ${product?.productId}`}
-            /> */}
                   <Typography variant="h5">Product heading</Typography>
                   <Box display="flex" alignItems="center" gap={3}>
                     <IconButton

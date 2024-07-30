@@ -45,7 +45,7 @@ const annoncementDataArray = [
 const HomeMain = ({ categories }) => {
   return (
     <>
-      <Box mb={1}>
+      <Box mt={3} mb={1.5}>
         <NestedDropdown />
       </Box>
       <Box mb={2}>
