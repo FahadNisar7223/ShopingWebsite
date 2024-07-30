@@ -60,7 +60,7 @@ const Cart = ({ data, onAdd, onRemove, handleDelete }) => {
               <Box>
                 <IconButton
                   onClick={() => handleDelete(product?.productId)}
-                  color="secondary"
+                  sx={{color:'#7D879C'}}
                 >
                   <Clear />
                 </IconButton>

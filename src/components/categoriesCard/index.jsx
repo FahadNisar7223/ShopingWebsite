@@ -15,7 +15,7 @@ const CategoriesCard = ({ imageUrl, buttonText }) => {
       <Card
         sx={{
           backgroundImage: `url(${imageUrl})`,
-          backgroundSize: "contain",
+          backgroundSize:'cover',
           backgroundRepeat: "no-repeat",
           height: 370,
           width: "100%",
